@@ -66,3 +66,21 @@ exe:/usr/lib/postfix/master
 
 # Nginx
 exe:/usr/sbin/nginx
+# PHP-FPM
+exe:/usr/sbin/php5-fpm
+
+#MySQL Server
+exe:/usr/sbin/mysqld
+# ClamAV
+exe:/usr/bin/freshclam
+exe:/usr/sbin/clamd
+
+#Others
+exe:/usr/lib/dovecot/anvil
+exe:/usr/lib/dovecot/auth
+exe:/usr/sbin/rsyslogd
+exe:/usr/sbin/atd
+exe:/usr/bin/perl
+exe:/usr/bin/php5-cgi
+exe:/usr/lib/apache2/mpm-prefork/apache2
+exe:/usr/sbin/mysqld
